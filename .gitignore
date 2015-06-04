@@ -1,3 +1,4 @@
 config.py
 redditBot/*
 post_replied_to.txt
+*.pyc
