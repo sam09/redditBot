@@ -10,7 +10,7 @@ print"Logged in"
 if not os.path.isfile("post_replied_to.txt"):
 	post_replied_to = []
 else:
-	with open("post_replied_to", "r") as f:
+	with open("post_replied_to.txt", "r") as f:
 		post_replied_to = f.read()
 		post_replied_to = post_replied_to.split("\n")
 		post_replied_to = filter(None, post_replied_to)
